@@ -1,0 +1,16 @@
+{
+  "name": "keyword-news",
+  "version": "1.0.0",
+  "description": "키워드 뉴스 모니터링 웹앱",
+  "scripts": {
+    "start": "node server/proxy.js",
+    "dev": "node server/proxy.js",
+    "serve": "npx serve public -p 8080"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["news", "keyword", "monitor", "korean", "pwa"],
+  "license": "MIT"
+}
